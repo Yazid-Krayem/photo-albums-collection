@@ -1,3 +1,4 @@
+// back/src/app.js
 import express from 'express'
 import cookieParser from 'cookie-parser' // parses cookies
 import session from 'express-session' // parses sessions
