@@ -24,7 +24,7 @@ const start = async () => {
   // DELETE
   app.get('/photos/delete/:id', async (req, res, next) => {
     const { id } = req.params
-    const result = await controller.deletephoto(id)
+    const result = await controller.deletePhoto(id)
     res.json({success:true, result})
   })
 
@@ -32,7 +32,7 @@ const start = async () => {
   app.get('/Photos/update/:id', async (req, res, next) => {
     const { id } = req.params
     const { name,amount,age } = req.query
-    const result = await controller.updatephoto(id,{name,amount,age})
+    const result = await controller.updatePhoto(id,{name,amount,age})
     res.json({success:true, result})
   })
 
