@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rakon1/photo-albums-collection.git"
+    "url": "git+https://github.com/Yazid-Krayem/photo-albums-collection.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rakon1/photo-albums-collection/issues"
+    "url": "https://github.com/Yazid-Krayem/photo-albums-collection/issues"
   },
-  "homepage": "https://github.com/rakon1/photo-albums-collection#readme",
+  "homepage": "https://github.com/Yazid-Krayem/photo-albums-collection#readme",
   "dependencies": {
     "concurrently": "^4.1.0",
     "postinstall": "^0.4.2"
